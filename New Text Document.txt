@@ -1,0 +1,22 @@
+Natural Language Processing
+
+1) We have taken nltk(natural language toolkit) to do the sentence and word tokenize.
+2) nltk and spacy are two mostly widely used which works are the pretty same with a difference of the inbuilt structure. nltk takes input as a string and output string whereas spacy works in the OOPS format
+3) In PyCharm 
+	import nltk
+	nltk.download()
+	#these steps import nltk package and install all its dependencies 
+
+4) for sentence tokenize import sent_tokenize and word_tokenize for words
+5) Part of Speech is used to identify which words correspond do what POS
+6)stopwords are some frequent words used in english words we sometimes no need to remove them for proper tagging of part of speech 
+7) https://spacy.io/usage/spacy-101
+8) dependency parsing:
+	https://realpython.com/natural-language-processing-spacy-python/
+9)  What is vectorization and text frequency and inverse document frequency 
+ 	https://medium.com/@paritosh_30025/natural-language-processing-text-data-vectorization-af2520529cf7
+10) word2vec : https://medium.com/voice-tech-podcast/an-idiots-guide-to-word2vec-natural-language-processing-5c3767cf8295
+
+https://towardsdatascience.com/an-implementation-guide-to-word2vec-using-numpy-and-google-sheets-13445eebd281
+
+11) glove vec : https://medium.com/sciforce/word-vectors-in-natural-language-processing-global-vectors-glove-51339db89639	
