@@ -52,24 +52,24 @@ for event in events:
         if i[1] == int(start) and i[2] == int(end):
             i[3] = identity
             i[4] = "B-" + str(type)
-            i[5] = modality
-            i[6] = polarity
+            i[5] = "B-" + str(modality)
+            i[6] = "B-" + str(polarity)
         elif i[1] == int(start):
             i[3] = identity
             i[4] = "B-" + str(type)
-            i[5] = modality
-            i[6] = polarity
+            i[5] = "B-" + str(modality)
+            i[6] = "B-" + str(polarity)
             while (i[2] != int(end)):
                 i = List[List.index(i) + 1]
                 i[3] = identity
                 i[4] = "I-" + str(type)
-                i[5] = modality
-                i[6] = polarity
+                i[5] = "I-" + str(modality)
+                i[6] = "I-" + str(polarity)
 
             i[3] = identity
             i[4] = "I-" + str(type)
-            i[5] = modality
-            i[6] = polarity
+            i[5] = "I-" + str(modality)
+            i[6] = "I-" + str(polarity)
 
 
 # for i in List:
